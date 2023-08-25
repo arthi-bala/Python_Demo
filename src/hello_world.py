@@ -9,6 +9,7 @@ Output:
 
 import pytest
 
+
 def print_statement(input_str: str) -> str:
     """To print the text given by the user along with hello.
 
