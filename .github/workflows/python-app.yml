@@ -4,6 +4,7 @@
 name: Python CI Pipeline - Checking Code and Test Cases
 
 on:
+  push:
   # this workflow gets triggered when any pull request is created to the mentioned branches
   pull_request:
   # this workflow gets triggered when manually made to run from action tab
