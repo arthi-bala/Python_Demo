@@ -1,4 +1,4 @@
-"""This is just a sample to check how requests is working"""
+"""This is just a sample to check how requests is working."""
 import requests
 
 try:
