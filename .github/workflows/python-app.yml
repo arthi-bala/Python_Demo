@@ -36,9 +36,6 @@ jobs:
       run: |
         pip install poetry
         poetry install --no-root
-        # pip install requests
-        poetry config virtualenvs.in-project true
-        poetry shell
       shell: bash
     
     # Checking for errors and warnings in the code with Pylint, Flake8, PyDocStyle and MyPy
