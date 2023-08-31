@@ -25,7 +25,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.mypy]
-plugins = ["typeshed.contrib.mypy.mypy.plugin"]
-
-[tool.mypy.config."*"]
 ignore_missing_imports = true
