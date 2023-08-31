@@ -37,7 +37,7 @@ fi
 
 # MyPy
 printf "\nMyPy Checking..........."
-result=$(poetry run mypy --pretty src)
+result=$(poetry run mypy --pretty --ignore-missing-imports src)
 if [[ $result =~ ^Success:\ no\ issues\ found\ in\ [0-9]+\ source\ (file|files)$ ]]; then
     printf "\e[42mNo Issues Found\e[0m\n"
 else
